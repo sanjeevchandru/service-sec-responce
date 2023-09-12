@@ -1,0 +1,27 @@
+@media(min-width:320px){
+	.container{
+		width:100%;
+	}
+	.ser-col{
+		width:100%;
+		padding:0 10px 40% 10px;
+	}
+}
+@media(min-width:760px){
+	.container{
+		width:90%;
+	}
+	.ser-col{
+		width:50%;
+		padding:0 10px 20% 10px;
+	}
+}
+@media(min-width:960px){
+	.container{
+		width:85%;
+	}
+	.ser-col{
+		width:33.33%;
+		padding:0 10px 15% 10px;
+	}
+}

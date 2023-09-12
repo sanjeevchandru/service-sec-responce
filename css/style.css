@@ -1,0 +1,81 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+	}
+	.container{
+		/* width:85%; */
+		margin:auto;
+	}
+	a{
+		text-decoration:none;
+	}
+	.ser-title{
+		padding:20px 0px;
+		text-align:center;
+	}
+	.ser-title h3{
+		font-size:30px;
+	}
+	.ser-title p{
+		padding:0 14%;
+		color:#199be6;
+	}
+	.ser-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	/* .ser-col{ */
+		/* width:33.33%; */
+		/* padding:0 10px 15% 10px; */
+	/* } */
+	.ser-card {
+		position:relative;
+		
+		
+	}
+	.ser-card img{
+		width:100%;
+		border-radius:10px;
+	}
+	.ser-cont{
+		padding:40px 20px;
+		margin:auto;
+		text-align:center;
+		width:80%;
+		box-shadow:0 0 10px #000;
+		border-radius:10px;
+		
+		opacity:0.8;
+		
+		position:relative;
+		background-color:#fff;
+	}
+	.ser-cont h2{
+		padding:15px 0px;
+		
+	}
+	.ser-cont p{
+		line-height:1.5;
+	}
+	.ser-icon i{
+		padding:20px 20px;
+		background-color:#199be6;
+		border-radius:50%;
+		outline:4px solid #fff;
+		
+		font-size:20px;
+		color:#fff;
+		
+		position:absolute;
+		top:-10%;
+		right:40%
+		
+		
+	}
+	.ser-totel-cont{
+		position:absolute;
+		bottom:-50%;
+		
+	}
